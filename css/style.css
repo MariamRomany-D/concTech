@@ -1,0 +1,768 @@
+*{
+
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+  
+}
+body{
+    background-color: black;
+}
+/* -----------------------------------------------Section [1] style ------------------------------------ */
+
+.sectionOne{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/css/assets/background/bg2.jpg") ;
+    background-attachment: fixed;
+    background-size: cover;    
+}
+.Logo img{ 
+    width: 33px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+nav ul{
+    list-style: none;
+}
+nav .Active1{
+    color: #34e3c9;
+    
+}
+a{
+    text-decoration: none;
+}
+.social{
+    color: black;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 250px ;
+}
+.navBar
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+nav{
+    height: 70px;
+    width: 100vw;
+    position: fixed;
+    background-color: transparent;
+    z-index: 1000;
+}
+nav ul{
+    margin-right: 30px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+     display: block; 
+     padding: 0 10px;
+     line-height: 70px;
+     font-size: 15px;
+     transition: .5s;
+}
+nav ul ul {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.912);
+    top:85px;
+    border-top: 3px solid rgba(0, 0, 0, 0.73);
+    opacity: 0;
+    visibility: hidden;   
+}
+nav ul li:hover > ul {
+    top:70px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s  linear;
+}
+nav ul ul li{
+    width: 150px;
+    display: list-item;
+    position: relative;
+    border: 1p solid rgba(0, 0, 0, 0.764);
+}
+li:hover >a{
+    color: #34e3c9;
+}
+.caption2
+{
+    text-align: center;
+    margin-top: 60px;
+    align-items: center; 
+    justify-content: center; 
+    
+}
+
+.overveiw
+{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caption2
+{
+    text-align: center;
+}
+.caption2 h1 
+{
+    font-size: 100px;
+}
+.caption2 h6{
+    font-size: 25px;
+    font-weight: 100;
+}
+.caption2 a{
+    color: black;
+}
+.caption2 button 
+{
+    background: white;
+    font-weight: 500px;
+	border: none;
+	padding: 15px;
+    border-radius: 5px  ;
+	
+}
+#icon{
+    display: none;
+}
+/* -----------------------------------------------Section [2] style ------------------------------------ */
+#section2
+{
+    margin-top: 50px;
+    width: 100vw;
+    height: 100vh;
+
+}
+.allSec
+{
+    
+    margin: 0 60px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.cap4on 
+{
+    margin-left: 20px;
+}
+.cap4on p 
+{
+    font-weight: 100 ;
+    color: rgba(255, 255, 255, 0.525);
+}
+.cap4on li 
+{
+    color: rgba(255, 255, 255, 0.525);
+
+}
+
+.twoDivs
+{
+    display: flex;
+  margin: 0px 10px;
+  
+    
+}
+.CapitalL
+{
+    font-size: 50px ;
+    font-weight: 500;
+    float: left;
+    margin-right: 20px;
+}
+.div1
+{
+float: left;
+}
+.capital p:first-child:first-letter {
+    color: rgb(246, 251, 251);
+    float: left;
+    font-size: 5.3em; 
+    font-weight: 600;
+    line-height: 1;
+    margin: -5px 5px -10px -5px;
+}
+.div1 p{
+    margin-top: 10px;
+    padding-right: 6px;
+    color: rgba(255, 255, 255, 0.525);
+    font-size: 20px;
+    font-weight: 100 ;
+}
+.div2 ul {
+    list-style: none; 
+  }
+ .div2 li 
+ {
+    padding: 7px 3px;
+    
+ } 
+  .div2 ul li::before {
+  
+        content: "• ";
+        color: #34e3c9;
+     
+  }
+/* -----------------------------------------------Section [3] style ------------------------------------ */
+
+.caption3
+{
+    text-align: center;
+}
+.caption3 pre
+{
+   font-weight: 100;
+   color: rgba(255, 255, 255, 0.605);
+}
+
+.select
+{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.select li
+{
+    list-style: none;
+    padding-left: 40px;
+    cursor: pointer;
+}
+.Active
+{
+    color: #34e3c9;
+}
+.select li:hover
+{
+    color: #34e3c9;
+}
+
+.gallery{
+    column-count: 3 ;
+    column-gap: 30px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 60px ;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.newTapImg
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.721);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+.newTapImg i 
+{
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    color: white;
+    font-size: 60px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.newTapImg img
+{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+/* --------------------------------------Section [4] style -----------------*/
+#section4 
+{
+    margin-left: 110px;
+margin-left: 69px;
+}
+.sec4Gallery
+{
+    margin-left: 97px;
+}
+.popUpGallery
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.77);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+    
+}
+.close{
+    position: absolute;
+    top: 80px;
+    right: 300px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.popUpGallery img 
+{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 35%;
+    
+
+}
+/*========================================hover===========================*/
+.items
+{
+    width: 24%;
+    float: left;
+    padding:10px;
+    margin-left: 40px;
+}
+.item
+{
+
+    position: relative;
+    overflow: hidden;
+
+}
+
+.caption 
+{   width: 100%;
+    height: 100%;
+    background-color: rgba(1, 2, 0, 0.44);
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    transition: 1s all;
+    
+}
+.items:hover .caption
+{
+    opacity: 1;
+}
+
+.caption h2 
+{
+    padding: 18px;
+    position: relative;
+    top: 100px;
+    left: 6px;
+    transition: 1s 1s all;
+}
+.items:hover h2
+{
+    position: relative;
+}
+
+
+/* --------------------------------------Section [5] style -----------------*/
+
+#section5 .eachserv
+{
+    margin: 60px;
+}
+
+#section5 p
+{
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.641);
+}
+
+#section5 .offf
+{   width: 100vw;
+    height: 100%;
+    margin-top: 20px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service
+{
+    margin-top: 60px;
+}
+.eachserv {
+   display: flex;
+
+}
+.tt i
+{
+    margin: 0 40px;
+}
+.tt{
+    font-size: 33px;
+}
+.caption5
+{
+    margin-left: 40px;
+}
+.servPic
+{
+    margin: auto;
+    padding-top: 40px;
+}
+.img1
+{
+    position: absolute;
+}
+.img2
+{
+    position: relative;
+    top:120px;
+    right:100px;
+}
+
+
+/* --------------------------------------Section [6] style -----------------*/
+
+#section6
+{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 40px;
+    margin: auto;
+}
+#section6 button
+{
+    background: white;
+    font-weight: 500px;
+    color: black;
+	border: none;
+	padding: 15px;
+    border-radius: 5px  ;
+    cursor: pointer;
+}
+.caption6
+{
+    margin-left: 60px;
+}
+
+.caption6 p
+{
+   color: rgba(255, 255, 255, 0.671);
+}
+.form{
+ margin: 10px 40px;
+ padding: 10px 40px;
+ float: left;
+}
+
+.form-control {
+    background-color: transparent;
+    width: 300px;
+    padding-left: 40px;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.664);
+    border-radius: 0;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+.form-checkbox
+{
+    background-color: #34e3c9 ;
+    
+
+}
+.info .eachserv
+{
+    padding: 20px 40px;
+    margin-left: 40px;
+}
+
+.info .eachserv i
+{
+   font-weight:800 ;
+}
+
+.info .eachserv p
+{
+   color: rgba(255, 255, 255, 0.74);
+}
+#term
+{
+    color: #34e3c9;
+    
+}
+.so option
+{
+    color: black;
+}
+
+
+
+/* -----------------------------------------------Section [7] style ------------------------------------ */
+.cont7
+{
+    text-align: center;
+    margin: 0px 0px;
+}
+#section7 button
+{    position: absolute;
+    top: 40%;
+    left: 44%;
+    background: white;
+    font-weight: 500px;
+    color: black;
+    font-size: 20px;
+	border: none;
+	padding: 22px;
+    border-radius: 5px  ;
+    cursor: pointer;
+}
+#section7  i
+{    font-size: 20px;
+}
+.insImg
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 50px;
+}
+
+.insImg img
+{
+    
+   padding:0px 10px;
+}
+
+/* -----------------------------------------------Section [8] style ------------------------------------ */
+.footerr {
+    text-align: center;
+    margin:40px 0px;
+}
+
+
+
+/*=======================================MediaQuery for Mob ===========================*/
+
+/*RWD(Reesponsiv Web Design)*/
+
+/* xs < 576px */
+
+
+@media screen and  (max-width:575px)
+{
+   .items 
+   {
+       width: 100%;
+   }
+   .sec4Gallery
+    {
+        margin-left: -58px;
+        margin-top: 0px;
+        
+    }
+    .allSec
+    {
+      display: inline;
+      margin: 20px;
+    }
+    .allSec .image
+    {
+        margin-left: 20px;
+    }
+    .caption h2 
+    {
+        
+        left: -50px;
+
+    }
+    .twoDivs
+    {
+        display: inline;
+        margin: 40px ;
+        padding: 40px;
+        
+    }
+    .gallery{
+        column-count: 1 ;
+        column-gap: 10px;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 60px ;
+    }
+    .caption3
+    {
+        margin-top: 620px;
+        margin-bottom: 0px;
+    }
+    #section5 .offf
+    { 
+    width: 100vw;
+    height: 100%;
+    margin-top: 100px;
+    padding-top: 100px;
+    display: block;
+    
+   }  
+   .servPic
+{
+    margin: auto;
+    position: absolute;
+    padding-top: 40px;
+
+}
+.img1
+{
+    position: relative;
+    top:0px;
+    left: 60px;
+}
+.img2
+{
+    position: relative;
+    width: 100%;
+    top:0px;
+    left: 60px;
+}
+#section6
+{
+    width: auto;
+    height: auto;
+    margin-top: 650px;
+    margin-bottom: 70px;
+}
+.form input 
+{
+    margin: 40px 20px;
+   
+}
+
+.insImg
+{
+    position: relative;
+    display: block;
+    margin-left: 40px;
+
+}
+#section7 button
+{   position: absolute;
+    top: 45%;
+    left: 20%;
+    background: white;
+    font-weight: 500px;
+    color: black;
+    font-size: 20px;
+	border: none;
+	padding: 22px;
+    border-radius: 5px  ;
+    cursor: pointer;
+}
+.popUpGallery
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.77);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+    
+}
+.close{
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.popUpGallery img 
+{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 80%;
+}
+nav .navUl
+{
+    display: none;
+}
+nav ul {
+    margin-right: 69px;
+    margin-top: 10px;
+
+}
+
+#icon
+{
+    position: absolute;
+    top: 16px;
+    right: 0px;
+    padding-top: 16px;
+    padding-right: 40px;
+    font-size: 30px;
+    float: right;
+    cursor: pointer;
+    display: block;
+}
+.sidNav
+{
+    position: fixed;
+    top: 0px;
+    left:0px;
+    background-color: black;
+    height:  100vh;
+    width: 350px;
+    z-index: 1000;
+    display: none;
+ 
+}
+.navUl2{
+    /* margin: 20px 0px; */
+    width: 200%;
+}
+.navUl2 li {
+    padding: 12px 20px;
+    list-style: none;
+
+}
+.Logo2
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.sidLogoAndClosIcon
+{
+    display: flex;
+    justify-content: space-between;
+}
+.sidLogoAndClosIcon i
+{
+    margin-right: 20px;
+    margin-top: 35px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.sidIco
+{
+    display: none;
+}
+}
+
+.sidNav
+{
+    display: none;
+}
+
